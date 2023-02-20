@@ -1,0 +1,30 @@
+{
+  "name": "container",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm -r --filter=./packages/* run build",
+    "clear-all": "rimraf **/node_modules"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "eslint": "^8.33.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-config-standard-jsx": "^8.1.0",
+    "eslint-plugin-flowtype": "^3.13.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-standard": "^4.1.0",
+    "rimraf": "^4.1.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
